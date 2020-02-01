@@ -8,7 +8,7 @@ class Card {
 };
 
 class Deck {
-   constructor(length, cards, draw) {
+   constructor(length, cards) {
 	   suits = ['hearts', 'spades', 'clubs', 'diamonds']
 	   ranks = [1,2,3,4,5,6,7,8,9,10,'J','Q','K','A',]
    this.length = length
